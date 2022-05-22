@@ -1,0 +1,20 @@
+'use strict';
+
+// We will create a welcome message for the user.
+console.log("Welcome, we will be gathering some information for this program.");
+
+// Now we will request their name and store the data into a variable fName.
+fname = prompt("What is your first name?");
+
+// Here we will display back to them their name and thank them for their input.
+console.log("Thank you " + fName + " for providing your name.");
+
+// This will store Pi to it's 8th digit.
+let piValue = 3.1415926;
+
+// We will now request the user to input their favorite number.
+myFavNumber = Number(parseInt(prompt("What is your favorite number?")));
+
+// Let us calculate the area of a circle with the provided number.
+let myArea = piValue * myFavNumber ^ 2;
+console.log("The area of a circle using your favorite number is: " + myArea);
